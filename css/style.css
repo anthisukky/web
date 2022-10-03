@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.menubar {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 0 10px #666;
+}
+.menubar .logo {
+    float: left;
+}
+
+.menubar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px;
+}
+.menubar ul.menu {
+    list-style: none;
+    float: right;
+}
+.menubar ul.menu li {
+    float: left;
+    margin-right: 20px;
+}
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.5s ease;
+}
+.menubar ul.menu li a:hover {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0px;
+}
+
+.header {
+    width: 100%;
+    background: url(..//pic/totoro029.jpg) no-repeat;
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+}
+.header_area {
+    padding-top: 40px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    width: 660px;
+}
+.header_area h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+.header_area p {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 480px;
+    font-size: 16px;
+}
+
+.info1 {
+    width: 100%;
+    height: 900px;
+}
+.info1_area {
+    color: black;
+}
+.info1_area img{
+    width: 1000px;
+    float: center;
+    background-size: cover;
+}
+.info1_text {
+    float: left;
+    font-size: 20px;
+    
+}
+.info1_area h1{
+    margin: 0;
+
+}
+
+footer {
+    background-color: #666;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
